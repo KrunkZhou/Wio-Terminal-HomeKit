@@ -4,14 +4,14 @@
 
 官方开发文档 (https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/)
 
-<p align="center"><img src="images/wio-ternimal-homekit.jpg" alt="drawing" width="600"/></p>
+<p align="center"><img src="images/wio-ternimal-homekit.jpg" alt="wio-ternimal-homekit" width="600"/></p>
 
 RTL8720DN 貌似不能直接使用网上有的 HomeSpan 这类直接集成原生 Homekit，也刚好我的米家，TP 这类设备使用了 HomeBridge 来桥接，所以最后决定用 HomeBridge 来桥接这台小屏幕。
 
 
 ### 先来看看效果：
 
-<p align="center"><img src="images/nanoleaf.gif" alt="drawing" width="600"/></p>
+<p align="center"><img src="images/nanoleaf.gif" alt="nanoleaf" width="600"/></p>
 
 自己画了个主屏幕以及菜单，还加入了 NTP 时间，放在桌上又实用又好看，朋友来自己家还能说这个是自己做的。
 
@@ -51,7 +51,7 @@ const char* server_ip = "http://10.0.0.86";
 ## HomeKit 按钮
 
 
-<p align="center"><img src="images/5way.png" alt="drawing" width="300"/></p>
+<p align="center"><img src="images/5way.png" alt="5way" width="300"/></p>
 
 三个功能在每页中分别对应 Wio Ternimal 的操作
 
@@ -61,7 +61,7 @@ const char* server_ip = "http://10.0.0.86";
 
 长按 - 按下
 
-<p align="center"><img src="images/homekit-button.jpg" alt="drawing" width="300"/></p>
+<p align="center"><img src="images/homekit-button.jpg" alt="homekit-button" width="300"/></p>
 
 ## 时间显示
 
@@ -136,7 +136,7 @@ npm install /路径/homebridge-kiot
 }
 ```
 
-<p align="center"><img src="images/hb-config.png" alt="drawing" width="300"/></p>
+<p align="center"><img src="images/hb-config.png" alt="hb-config" width="300"/></p>
 
 
 ### 完整配置json文件 (完整的Homebridge配置文件例子，经供参考)
@@ -198,7 +198,7 @@ npm install /路径/homebridge-kiot
 
 配置完成并重启后会在家庭App中显示这几个按键
 
-<p align="center"><img src="images/homekit-all.jpg" alt="drawing" width="300"/></p>
+<p align="center"><img src="images/homekit-all.jpg" alt="homekit-all" width="300"/></p>
 
 启动 Wio Terminal 应该就能操控这几个按键了
 
