@@ -1,0 +1,27 @@
+{
+  "name": "homebridge-kiot",
+  "version": "0.1.0",
+  "description": "HTTP button plugin for Wio Terminal and HomeBridge(https://github.com/nfarina/homebridge)",
+  "license": "MIT",
+  "keywords": [
+    "homebridge-plugin",
+    "kiot",
+    "wio",
+    "wio terminal"
+  ],
+  "author": "KrunkZhou",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/KrunkZhou/Wio-Terminal-HomeKit.git"
+  },
+  "bugs": {
+    "url": "http://github.com/KrunkZhou/Wio-Terminal-HomeKit/issues"
+  },
+  "dependencies": {
+    "express": "*"
+  },
+  "engines": {
+    "node": ">=0.12.0",
+    "homebridge": ">=0.2.0"
+  }
+}
