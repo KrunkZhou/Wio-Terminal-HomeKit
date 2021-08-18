@@ -2,7 +2,7 @@
 
 闲来无事，想接触下Arduino开发，于是刚巧不巧看到了亚马逊 Wio Terminal 在打折就入手了两个，想着可以给自己的家庭添加两个控制器，因为设备繁多所以也不太方便用 HomeKit 按键来实现，也不太喜欢走到哪里都用手机控制，于是乎就做了这么个项目。
 
-官方开发文档 (https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/)
+官方开发文档: https://wiki.seeedstudio.com/Wio-Terminal-Getting-Started/
 
 <p align="center"><img src="images/wio-ternimal-homekit.jpg" alt="wio-ternimal-homekit" width="600"/></p>
 
@@ -112,7 +112,7 @@ menu_config[修改为页面总数][6]
 
 HomeBridge 自身的配置很简单，我是用 Docker 安装在了群晖上，可以访问官网就能找到安装方法
 
-由于对插件的不熟悉，目前对我来说之内做出来一个端口对应一个 Button，但是无妨，也用不了多少个，我的插件是基于 HomeBridge-Dummy 进行的修改，所以比较简单 (如果有大佬会写Platform，那就可以避免这个问题了)
+由于对插件的不熟悉，目前对我来说只能做出来一个端口对应一个 Button，但是无妨，也用不了多少个，我的插件是基于 HomeBridge-Dummy 进行的修改，所以比较简单 (如果有大佬会写Platform，那就可以避免这个问题了)
 
 ## HB 插件安装方法
 
@@ -202,5 +202,5 @@ npm install /路径/homebridge-kiot
 
 启动 Wio Terminal 应该就能操控这几个按键了
 
-访问我的博客来讨论！https://krunk.cn/?p=2174
+访问我的博客来讨论！https://krunk.cn/kblog2174.html
 
